@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var submitRef  = 'submit=178870647337118393';
 
     var nameValue    = encodeURIComponent($('#placeholder1').val());
-    var phoneValue   = encodeURIComponent($('#placeholder2').val());
+    var phoneValue   = encodeURIComponent($('.js-phonemask-result').val());
     var emailValue   = encodeURIComponent($('#placeholder3').val());
     var commentValue = encodeURIComponent($('#placeholder4').val());
 
